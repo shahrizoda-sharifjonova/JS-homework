@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: 0.5s background; 
+}
+.wrapper{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
